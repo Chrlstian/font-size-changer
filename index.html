@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="textAreaContainer">
+            <textarea name="" id="fontChanging" placeholder="Write your message" cols="30" rows="10"></textarea>
+        </div>
+        <p>Choose a fontsizes</p>
+        <div class="fontSizesContainer">
+            <button class="font1" onclick="font1()">10px</button>
+            <button class="font2" onclick="font2()">12px</button>
+            <button class="font3" onclick="font3()">16px</button>
+            <button class="font4" onclick="font4()">20px</button>
+            <button class="font5" onclick="font5()">24px</button>
+            <button class="font6" onclick="font6()">30px</button>
+        </div>
+        <p class="customfont">Custom fontsizes</p>
+        <div class="addMinusContainer">
+            <input type="number" class="inputCustomFonts">
+            <button class="enterFontSizes">Enter</button>
+        </div>
+        <div class="plusMinusContainer">
+            <button class="addOne" onclick="addOne()">+</button>
+            <button class="minusOne" onclick="minusOne()">-</button>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
